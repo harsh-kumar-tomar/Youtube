@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageVideo"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/spyxfamily"
+            />
+
+        <TextView
+            android:id="@+id/lengthVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="2dp"
+            android:background="@drawable/background_black"
+
+
+            android:text="3:35"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="#000"
+        android:orientation="horizontal"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:cardCornerRadius="70dp"
+            android:layout_marginEnd="12dp"
+            >
+            <ImageView
+                android:id="@+id/channelVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/aries"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Review of spyxfamily anime by aries spring | Aries Spring"
+                android:textSize="14sp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/channelNameVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aries Spring "
+                    android:textColor="#6C6C6C"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" • "
+                    android:textColor="#6C6C6C"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:id="@+id/viewsVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="35K views "
+                    android:textColor="#6C6C6C"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" • "
+                    android:textColor="#6C6C6C"
+                    android:textSize="12sp"
+
+                    />
+                <TextView
+                    android:id="@+id/periodVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 minutes ago"
+                    android:textColor="#6C6C6C"
+                    android:textSize="12sp"
+
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/more"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

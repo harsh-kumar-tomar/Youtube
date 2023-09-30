@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home_navigation" android:title="Home" android:icon="@drawable/home_selector"  />
+    <item android:id="@+id/shorts_navigation" android:title="Shorts" android:icon="@drawable/shorts"/>
+    <item android:id="@+id/upload_navigation" android:title="Upload" android:icon="@drawable/upload" />
+    <item android:id="@+id/subscription_navigation" android:title="Subscription" android:icon="@drawable/subscription_selector"  />
+    <item android:id="@+id/library_navigation" android:title="Library" android:icon="@drawable/library_selector" />
+
+</menu>
